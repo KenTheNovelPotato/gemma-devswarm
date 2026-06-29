@@ -76,3 +76,5 @@ Open your browser to `http://localhost:5173` and start building!
 Multi-agent swarms have historically been impractical for real-time human-in-the-loop design sessions due to GPU latency bottlenecks. When 5 agents collaborate sequentially (where each agent's output is fed to the next), typical GPU latencies of 30-50 tokens/sec mean the user has to wait 2 to 3 minutes for a single layout.
 
 By leveraging **Gemma 4 31B** running on the **Cerebras wafer-scale engine**, generation speeds shoot up to **1,500+ tokens/sec**. This reduces the entire 5-step PM-to-Developer swarm pipeline to **under 15 seconds**, unlocking true "work at the speed of thought" rapid prototyping.
+
+Built by Ken Goyarola for the Cerebras x Gemma 4 hackathon 6/28/26
